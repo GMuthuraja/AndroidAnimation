@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".Main2Activity">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:adjustViewBounds="true"
+            android:padding="16dp" />
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonZoom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/zoom"
+            android:onClick="zoom"
+            android:layout_weight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="2dp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorButton"/>
+
+
+        <Button
+            android:id="@+id/buttonMove"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/move"
+            android:onClick="move"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="16dp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp"
+            android:background="@color/colorButton"/>
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonBlink"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/blink"
+            android:onClick="blink"
+            android:layout_weight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="2dp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorButton"/>
+
+
+        <Button
+            android:id="@+id/buttonUp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/slideup"
+            android:onClick="slideup"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorButton"/>
+
+    </TableRow>
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonFade"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/fade"
+            android:onClick="fade"
+            android:layout_weight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="2dp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorButton"/>
+
+
+        <Button
+            android:id="@+id/buttonDown"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/slidedown"
+            android:onClick="slidedown"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="16dp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorButton"/>
+
+    </TableRow>
+
+
+</TableLayout>

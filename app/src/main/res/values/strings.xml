@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroiodAnimation</string>
+    <string name="android_animation">Android Animation</string>
+    <string name="zoom">Zoom</string>
+    <string name="move">Move</string>
+    <string name="blink">Blink</string>
+    <string name="slideup">Slide Up</string>
+    <string name="fade">Fade</string>
+    <string name="slidedown">Slide Down</string>
+</resources>
